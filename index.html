@@ -1,26 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sharmin Shams Ferdausi</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sharmin Shams Ferdausi</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <div>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Project</a>
-                <a href="#contact">Contact</a>
-                <a href="resume.pdf" download >Download Resume</a>
-            </div>
-        </nav>
-    </header>
-    <footer>
-        <p>&copy; 2025 ~ Sharmin Shams Ferdausi. All rights reserverd</p>
-    </footer>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Sharmin Shams Ferdausi</div>
+
+      <!-- Hamburger Icon -->
+      <div class="menu-toggle" id="menuToggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Project</a>
+        <a href="#contact">Contact</a>
+        <a href="resume_Sharmin.pdf" download>Download Resume</a>
+      </div>
+    </nav>
+  </header>
+  <div class="wrapper">
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>Hi! My name is <strong> Shams Ferdausi</strong>, and I'm based in <strong>Moncton, NB</strong>. I'm an aspiring full-stack developer
+         who loves building modern, user-friendly, and efficient web applications. I enjoy learning new technologies
+          and keeping up with the latest trends in web development. I'm excited to use my skills in an entry-level
+           developer role and grow as part of a creative and dynamic team.
+
+    </section>
+    <!-- <section id="skills" class="skills">
+  <h2>My Skills</h2>
+  <div class="skills-grid">
+    <div class="skill"><i class="fa-brands fa-html5" style="color:#E34F26;"></i> HTML</div>
+    <div class="skill"><i class="fa-brands fa-css3-alt" style="color:#1572B6;"></i> CSS</div>
+    <div class="skill"><i class="fa-brands fa-js" style="color:#F7DF1E;"></i> JavaScript</div>
+    <div class="skill"><i class="fa-brands fa-java" style="color:#007396;"></i> Java</div>
+    <div class="skill"><i class="fa-brands fa-angular" style="color:#DD0031;"></i> Angular</div>
+    <div class="skill"><i class="fa-solid fa-code" style="color:#68217A;"></i> C#</div>
+    <div class="skill"><i class="fa-solid fa-database" style="color:#00618A;"></i> SQL</div>
+    <div class="skill"><i class="fa-brands fa-github" style="color:#171515;"></i> GitHub</div>
+    <div class="skill"><i class="fa-brands fa-node-js" style="color:#339933;"></i> Node.js</div>
+  </div>
+</section> -->
+
+    <section id="skills" class="skills">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill"><i class="devicon-html5-plain colored"></i> HTML</div>
+        <div class="skill"><i class="devicon-css3-plain colored"></i> CSS</div>
+        <div class="skill"><i class="devicon-javascript-plain colored"></i> JavaScript</div>
+        <div class="skill"><i class="devicon-java-plain colored"></i> Java</div>
+        <div class="skill"><i class="devicon-angularjs-plain colored"></i> Angular</div>
+        <div class="skill"><i class="devicon-csharp-plain colored"></i> C#</div>
+      
+        <div class="skill"><i class="devicon-nodejs-plain colored"></i> Node.js</div>
+        <div class="skill"><i class="devicon-github-original colored"></i> GitHub</div>
+        <div class="skill"><i class="devicon-mysql-plain colored"></i> SQL</div>
+         <div class="skill"><i class="devicon-mysql-plain colored"></i> MySQL</div>
+    <div class="skill"><i class="devicon-typescript-plain colored"></i> TypeScript</div>
+    <div class="skill"><i class="devicon-php-plain colored"></i> PHP</div>
+    <div class="skill"><i class="devicon-bootstrap-plain colored"></i> Bootstrap</div>
+    <div class="skill"><i class="devicon-spring-plain colored"></i> Spring Boot</div>
+    <div class="skill"><i class="devicon-thymeleaf-plain colored"></i> Thymeleaf</div>
+      </div>
+    </section>
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <h3>Purchase Order System </h3>
+          <div class="slider" data-images='["img/po1.jpg","img/po2.jpg","img/po3.jpg"]'>
+            <img src="img/po1.jpg" alt="Web Portfolio">
+            <div class="dots"></div>
+          </div>
+          <p>
+            <h3>Key Features:</h3>
+          <ul>
+            <li> Create and edit purchase orders with validations and dynamic calculations.</li>
+            <li> Implemented supervisor workflows for approving, denying, and closing purchase orders</li>
+
+            <li> Search, filtering, and dashboard features </li>
+
+            <li> Secure user authentication and REST API integration</li>
+          </ul>
+          <h3>Tool Used</h3>
+          <ul>
+            <li>Angular</li>
+            <li>C#</li>
+            <li>Asp.NetCore</li>
+            <li>TypeScript</li>
+            <li>Bootstrap</li>
+            <li>SQL</li>
+          </ul>
+
+          <h3><a href="https://github.com/Sharmin-Shams/Purchase-Order-Management-System">Code Link</a></h3>
+          </p>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <h3>Hotel Reservation System</h3>
+          <div class="slider" data-images='["img/image1.jpg","img/image2.jpg","img/image3.jpg"]'>
+            <img src="img/image1.jpg" alt="Mobile App" onclick="nextSlide(this)">
+            <div class="dots"></div>
+          </div>
+          <p>
+            <h3>Key Features:</h3>
+          <ul>
+            <li> Create reservation with new guest and returning guest options.</li>
+            <li> Search and view reservation details by guest's last name, email, room number, or reservation number.</li>
+             <li>Search available rooms by number of guests, check-in date, and check-out date </li>
+            <li> Management override business rule implementation </li>
+
+           
+          </ul>
+          <h3>Tool Used</h3>
+          <ul>
+            
+            <li>C#</li>
+            <li>Win Form</li>
+            <li>N-Tier architecture</li>
+            <li>SQL</li>
+          </ul>
+
+          <h3><a href="https://github.com/PROG1179-N-Tier/hotelaubergebravo.git">Code Link</a></h3>
+          </p>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <h3>Dinning Room 1234</h3>
+          <div class="slider" data-images='["img/java2.jpg","img/java1.jpg","img/java3.jpg"]'>
+            <img src="img/java2.jpg" alt="Dashboard" onclick="nextSlide(this)">
+            <div class="dots"></div>
+          </div>
+          <p>
+          <h3>Key Features:</h3>
+          <ul>
+            <li> Menu creation and selection for each event</li>
+            <li> Event and seating management with table layout customization</li>
+
+            <li> Reservation approval/denial with guest email notifications</li>
+
+            <li> Secure user authentication and REST API integration</li>
+          </ul>
+          <h3>Tool Used</h3>
+          <ul>
+            <li>HTML</li>
+            <li>Java</li>
+            <li>Spring Boot</li>
+            <li>Thymeleaf</li>
+            <li>Bootstrap</li>
+            <li>MySQL</li>
+          </ul>
+
+          <h3><a href="https://github.com/Sharmin-Shams/restaurant-term-project-team9">Code Link</a></h3>
+          </p>
+        </div>
+
+      </div>
+      <!-- Lightbox container -->
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+</div>
+    </section>
+
+
+
+    <!-- <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>🌐 Project One</h3>
+        <p>Short description of your project.</p>
+      </div>
+      <div class="project-card">
+        <h3>📱 Project Two</h3>
+        <p>Short description of your project.</p>
+      </div>
+      <div class="project-card">
+        <h3>⚙️ Project Three</h3>
+        <p>Short description of your project.</p>
+      </div>
+    </div>
+  </section> -->
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <p>Let's connect! You can find me here:</p>
+      <div class="contact-buttons">
+        <a href="mailto:sharminshams@yahoo.com" class="btn email">📧Email</a>
+        <a href="https://github.com/Sharmin-Shams" target="_blank" class="btn github">💻 GitHub</a>
+        <a href="https://www.linkedin.com/in/sharmin-shams-ferdausi/" target="_blank" class="btn linkedin">🔗
+          LinkedIn</a>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2025 ~ Sharmin Shams Ferdausi. All rights reserverd</p>
+  </footer>
 </body>
+
 </html>
